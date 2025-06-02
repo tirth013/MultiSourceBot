@@ -1,58 +1,114 @@
-# Multi-Source Research Assistant
 
-## Overview
-The **MultiSourceBot** is an AI-powered tool designed to gather, analyze, and synthesize information from multiple sources efficiently. Built using **LangChain** and **LangGraph**, it enables advanced retrieval and reasoning for structured insights. The application is deployed using **Flask**, providing an interactive and user-friendly interface. The project is managed in a **Pipenv** virtual environment to ensure dependency management and reproducibility.
+# **MULTISOURCEBOT**  
+*Unlock insights from diverse sources, effortlessly.*
 
-## Key Features
-- **Multi-source Data Retrieval:** Uses LangChain to fetch and process information from various sources.
-- **Graph-based Processing:** Implements LangGraph for structured reasoning and flow control.
-- **Interactive Web Interface:** Built with Flask for seamless user experience.
-- **Efficient Dependency Management:** Utilizes Pipenv for managing Python packages.
+![last commit](https://img.shields.io/badge/last%20commit-may-blue) ![python](https://img.shields.io/badge/python-64.2%25-blue) ![languages](https://img.shields.io/badge/languages-2-orange)
 
-## Technologies Used
+Built with the tools and technologies:  
+![Flask](https://img.shields.io/badge/Flask-black) ![Markdown](https://img.shields.io/badge/Markdown-black) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-red) ![LangChain](https://img.shields.io/badge/LangChain-green) ![Python](https://img.shields.io/badge/Python-blue)
+
+---
+
+## **Table of Contents**
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
+- [Screenshot](#screenshot)
+- [Contributions](#contributions)
+- [License](#license)
+
+---
+
+## **Overview**
+
+MultiSourceBot is an AI-powered tool designed to streamline the process of gathering and analyzing information from diverse sources. Built using **LangChain** and **LangGraph**, it provides structured retrieval and reasoning for insights, with an interactive web interface powered by **Flask**.
+
+---
+
+## **Key Features**
+- 🧠 **AI-driven Information Gathering:** Efficiently collects and synthesizes data from multiple sources, tackling information overload.
+- 🔍 **Advanced Language Processing:** Utilizes LangChain for sophisticated data retrieval and reasoning, enhancing insight quality.
+- 🌐 **Interactive Web Interface:** Built with Flask, it provides a seamless platform for user interactions and query management.
+- 📦 **Robust Dependency Management:** Managed with Pipenv, ensuring all necessary libraries are available for smooth functionality.
+- 🗄️ **Database Integration:** SQLAlchemy facilitates efficient data management, allowing for organized storage and retrieval of research sources.
+- 🕸 **Graph-based Processing:** Implements LangGraph for structured reasoning and flow control.
+- 🤝 **Open Source Collaboration:** Licensed under MIT, promoting community contributions and innovation.
+
+---
+
+## **Technologies Used**
 - **LangChain** – For AI-powered information retrieval and processing.
 - **LangGraph** – For structured multi-step reasoning workflows.
 - **Flask** – For creating an interactive web interface.
+- **SQLAlchemy** – For database integration and management.
 - **Pipenv** – For managing dependencies and virtual environments.
 
-Screenshot
+---
 
-Below is a screenshot of the Multi-Source Research Assistant in action:
+## **Getting Started**
 
-![image](https://github.com/user-attachments/assets/2b0f1c4d-3b94-450b-8126-b908853ec850)
+### **Prerequisites**
+- **Programming Language:** Python
+- **Package Manager:** Pip, Pipenv
 
+### **Installation**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tirth013/MultiSourceBot
+   cd MultiSourceBot
+   ```
+2. Install dependencies:
+   - Using **pip**:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Using **pipenv**:
+     ```bash
+     pipenv install
+     ```
 
-## How to Run
+### **Usage**
+Run the project:
+- Using **pip**:
+  ```bash
+  python app.py
+  ```
+- Using **pipenv**:
+  ```bash
+  pipenv shell
+  pipenv run python app.py
+  ```
 
-### 1. Clone the Repository
-```sh
-https://github.com/tirth013/Multi-Source-Bot.git
-cd MultiSourceBot
-```
+### **Testing**
+Run tests with:
+- Using **pip**:
+  ```bash
+  pytest
+  ```
+- Using **pipenv**:
+  ```bash
+  pipenv shell
+  pipenv run pytest
+  ```
 
-### 2. Set Up the Pipenv Environment
-If you don't have Pipenv installed, first install it:
-```sh
-pip install pipenv
-```
+---
 
-Then install the project dependencies:
-```sh
-pipenv install
-```
+## **Screenshot**
+![MultiSourceBot Screenshot](https://github.com/user-attachments/assets/2b0f1c4d-3b94-450b-8126-b908853ec850)
 
-### 3. Activate the Virtual Environment
-```sh
-pipenv shell
-```
+---
 
-### 4. Run the Application
-```sh
-pipenv run python app.py
-```
+## **Contributions**
+Feel free to open issues or pull requests if you have suggestions or bug fixes.
 
-## Contributions
-Feel free to open issues or pull requests if you have suggestions for improvements or bug fixes.
+---
 
-## License
+## **License**
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
